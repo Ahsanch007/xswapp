@@ -10,7 +10,7 @@ export default function Home() {
       const router = useRouter()
   
   return (
-    <div className="bgImg  ">
+    <div className="bgImg relative  ">
        
       <Header />
       <div className="container   mx-auto px-[15px]">
@@ -28,10 +28,12 @@ export default function Home() {
             </div>
           </div>
           <div>
-            <img src="/assets/Gradient Fill 2.svg" className="max-w-full h-auto" alt="" />
+            <img src="/assets/world.svg" className="max-w-full h-auto" alt="" />
           </div>
         </div>
       </div>
+      <img src="/assets/Vector Smart Object (2).svg" className="absolute right-5 bottom-5 cursor-pointer" alt="" />
+
     </div>
   );
 }
