@@ -11,7 +11,7 @@ import { useRouter } from "next/navigation";
 export default function Page() {
     const router = useRouter()
   return (
-    <div>
+    <div className="bgImg">
       <Header />
       <div className="container   mx-auto px-[15px]">
 

@@ -10,13 +10,15 @@ body {
 
 body {
  background: white;
- background-image: url('../../public/assets/bg.svg');
- background-size: cover;
+
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.bgImg{
+  background-image: url('../../public/assets/Shape.png');
+  background-size: cover;
+}
 * {
   box-sizing: border-box;
   padding: 0;

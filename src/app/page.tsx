@@ -10,7 +10,8 @@ export default function Home() {
       const router = useRouter()
   
   return (
-    <div>
+    <div className="bgImg  ">
+       
       <Header />
       <div className="container   mx-auto px-[15px]">
 
