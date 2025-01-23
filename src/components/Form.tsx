@@ -8,13 +8,13 @@ export const Form = () => {
                 <h1 className='font-bold text-transparent bg-clip-text bg-custom text-[40px]'>
                     X$WAP
                 </h1>
-                <img src="/assets/Color Fill 4.svg" className='object-cover' alt="" />
+                <img src="/assets/setting.svg" className='object-cover' alt="" />
 
             </div>
             <div className="flex flex-col py-5 gap-2">
                 <div className="flex flex-col gap-2">
                     <div className="flex items-end gap-1">
-                        <img src="/assets/Color Fill 8.svg" className='max-w-[48px] h-auto' alt="" />
+                        <img src="/assets/xrp.svg" className='max-w-[48px] h-auto' alt="" />
                         <p className='text-[#414141] font-semibold'>
                             XRP
                         </p>
@@ -36,7 +36,7 @@ export const Form = () => {
                 </div>
                 <div className="flex flex-col gap-2">
                     <div className="flex items-end gap-1">
-                        <img src="/assets/Color Fill 7 copy (1).svg" className='max-w-[48px] h-auto' alt="" />
+                        <img src="/assets/vec.svg" className='max-w-[48px] h-auto' alt="" />
                         <p className='text-[#414141] font-semibold'>
                             XRP$
                         </p>
